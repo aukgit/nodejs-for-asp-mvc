@@ -14,5 +14,9 @@ class Person  {
         this.FirstName = fname;
         this.LastName = fname;
     }  
+
+    ExampleMethod() {
+        return this.FirstName + " " + this.LastName;
+    }
   
 }  

@@ -9,6 +9,8 @@ namespace SampleMvc.Controllers {
         public ActionResult About() {
             ViewBag.Message = "Your application description page.";
 
+            var newVariable = "Hello World";
+
             return View();
         }
 
